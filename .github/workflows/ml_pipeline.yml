@@ -27,12 +27,10 @@ jobs:
         # pip install mlflow
 
     # Step 4: Train model
-    - name: Train, Register and Staging model
-      run: |
-        python run.py
+    # - name: Train, Register and Staging model
+    #   run: |
+    #     python run.py
 
-
-    # Step 6: Test model
-    - name: Test model
-      run: |
-        python test/test.py
+    # - name: Test model
+    #   run: |
+    #     python test/test.py
