@@ -1,4 +1,4 @@
-name: ML Drug_classification
+name: ML Drug classification
 
 on:
   push:
