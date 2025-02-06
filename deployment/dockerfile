@@ -1,0 +1,15 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install the required dependencies
+COPY requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
+
+# Copy the application into the container
+COPY . /app
+
+EXPOSE 8501
+
+CMD ["streamlit", "run", "app.py"]
+
