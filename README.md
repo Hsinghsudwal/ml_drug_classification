@@ -12,7 +12,7 @@
 - [CICD](#cicd)
 
 ## Problem Statement
-This dataset contains information about drug classification based on patient general information and its diagnosis. Machine learning model is needed in order to predict the outcome of the drugs type that might be suitable for the patient.
+This dataset contains information about drug classification based on patient general information. The idea is to try some techniques to predict the outcome of the drugs that might be accurate for the patients. Machine learning model is needed in order to predict the outcome of the drugs type that might be suitable for the patient. The data set contains various information that effect the predictions like Age, Sex, BP, Cholesterol levels, Na to Potassium Ratio and the drug type. This dataset is taken from (kaggle)[Hsinghsudwal/mlops-sensor-fault](https://www.kaggle.com/datasets/prathamtripathi/drug-classification).
 
 ## Setup
 **Installation:** Clone the repository git clone https://github.com/Hsinghsudwal/ml_drug_classification.git
