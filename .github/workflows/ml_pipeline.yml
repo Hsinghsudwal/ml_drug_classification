@@ -1,0 +1,38 @@
+name: Drug_classification CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout repository
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Step 2: Set up Python environment
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        # pip install mlflow
+
+    # Step 4: Train model
+    - name: Train, Register and Staging model
+      run: |
+        python run.py
+
+
+    # Step 6: Test model
+    - name: Test model
+      run: |
+        python test/test.py

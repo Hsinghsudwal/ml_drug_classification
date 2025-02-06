@@ -1,0 +1,15 @@
+pandas
+scikit-learn
+numpy
+matplotlib
+seaborn
+black
+imblearn
+mlflow
+pytest
+streamlit
+joblib
+prometheus-client
+scipy
+PyYAML
+imbalanced-learn
