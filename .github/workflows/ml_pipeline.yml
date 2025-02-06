@@ -1,4 +1,4 @@
-name: Drug_classification CI/CD Pipeline
+name: ML Drug_classification
 
 on:
   push:

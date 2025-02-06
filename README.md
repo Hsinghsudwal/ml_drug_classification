@@ -1,4 +1,5 @@
-# ML Drug Classification Pipeline
+# ML Drug Classification
+
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 ## Table of Content
 - [Problem Statement](#problem-statement)
