@@ -1,4 +1,4 @@
-# ML Drug Classification CICD
+# ML Drug Classification Pipeline
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 ## Table of Content
 - [Problem Statement](#problem-statement)
@@ -8,6 +8,7 @@
 - [Test](#test)
 - [Deployment](#deployment)
 - [Monitor](#monitor)
+- [CICD](#cicd)
 
 ## Problem Statement
 This dataset contains information about drug classification based on patient general information and its diagnosis. Machine learning model is needed in order to predict the outcome of the drugs type that might be suitable for the patient.
@@ -169,6 +170,10 @@ docker-compose up --build
     Streamlit: http://localhost:8501.
     Prometheus: http://localhost:8000.
     Grafana: http://localhost:3000 using admin as the username and password.
+
+## Next Step
+* CI/CD
+* Cloud
 
 
 
