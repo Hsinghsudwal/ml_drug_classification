@@ -1,0 +1,11 @@
+streamlit
+joblib
+pandas
+scikit-learn
+prometheus-client
+numpy
+scipy
+PyYAML
+imbalanced-learn
+
+
