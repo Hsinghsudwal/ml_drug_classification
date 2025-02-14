@@ -9,7 +9,7 @@
 - [Test](#test)
 - [Deployment](#deployment)
 - [Monitor](#monitor)
-- [CICD](#cicd)
+- [Next](#next)
 
 ## Problem Statement
 This dataset contains information about drug classification based on patient general information. The idea is to try some techniques to predict the outcome of the drugs that might be accurate for the patients. Machine learning model is needed in order to predict the outcome of the drugs type that might be suitable for the patient. The data set contains various information that effect the predictions like Age, Sex, BP, Cholesterol levels, Na to Potassium Ratio and the drug type. This dataset is taken from [kaggle](https://www.kaggle.com/datasets/prathamtripathi/drug-classification).
@@ -172,7 +172,7 @@ docker-compose up --build
     Prometheus: http://localhost:8000.
     Grafana: http://localhost:3000 using admin as the username and password.
 
-## Next Step
+## Next
 * CI/CD
 * Cloud
 
